@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H2VWLLN55R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+  gtag("config", "G-H2VWLLN55R");
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="https://artlinexpt.com/" />
+<title>Арт-Лайн Эксперт — независимая экспертиза, осмотр ТС и имущества | Приморский край</title>
+<meta name="description" content="Арт-Лайн Эксперт — осмотр транспортных средств и имущества по ОСАГО и КАСКО, приём документов после ДТП, расчёт по Единой методике. Офисы во Владивостоке, Артёме и Уссурийске.">
+<style>
+  :root{
+    --navy:#0f2942;--navy-2:#173a5e;--blue:#1e5a8a;
+    --accent:#c9962c;--accent-soft:#f0e4c6;
+    --ink:#1c2530;--muted:#5b6b7b;--line:#dfe6ee;--bg-soft:#f5f8fb;--white:#fff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{font-family:"Segoe UI","Helvetica Neue",Arial,sans-serif;color:var(--ink);line-height:1.6;background:var(--white);}
+  a{color:inherit;text-decoration:none;}
+  img{max-width:100%;}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 22px;}
+  section{padding:70px 0;}
+  h2.title{font-size:clamp(24px,4vw,34px);font-weight:800;color:var(--navy);letter-spacing:-.5px;margin-bottom:10px;text-align:center;}
+  .subtitle{text-align:center;color:var(--muted);font-size:16px;max-width:640px;margin:0 auto 42px;}
+
+  /* HEADER */
+  header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
+  .nav{display:flex;align-items:center;gap:14px;height:66px;}
+  .brand{display:flex;align-items:center;gap:11px;margin-right:auto;}
+  .header-anketa{white-space:nowrap;}
+  .header-anketa .ha-short{display:none;}
+  @media(max-width:520px){
+    .header-anketa .ha-full{display:none;}
+    .header-anketa .ha-short{display:inline;}
+    .header-anketa{padding:10px 13px;}
+    .brand b{font-size:15px;}
+  }
+  .logo{width:44px;height:44px;border-radius:11px;background:linear-gradient(135deg,var(--navy),var(--blue));display:flex;align-items:center;justify-content:center;flex:0 0 44px;}
+  .brand b{font-size:17px;color:var(--navy);letter-spacing:.2px;display:block;line-height:1.1;}
+  .brand span{font-size:11px;color:var(--muted);letter-spacing:1px;text-transform:uppercase;}
+  .nav-links{display:flex;gap:26px;align-items:center;}
+  .nav-links a{font-size:14.5px;color:var(--ink);font-weight:500;transition:color .15s;}
+  .nav-links a:hover{color:var(--blue);}
+  .btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#3a2b06;font-weight:700;font-size:14.5px;padding:11px 20px;border-radius:10px;transition:transform .12s,box-shadow .15s;border:none;cursor:pointer;}
+  .btn:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(201,150,44,.35);}
+  .btn-ghost{background:transparent;border:1.5px solid rgba(255,255,255,.4);color:#fff;}
+  .btn-ghost:hover{background:rgba(255,255,255,.1);box-shadow:none;}
+  .burger{display:none;background:none;border:none;cursor:pointer;padding:6px;}
+
+  /* HERO */
+  .hero{position:relative;overflow:hidden;color:#eaf1f8;padding:0;
+    background:radial-gradient(120% 90% at 100% 0%,rgba(30,90,138,.55) 0%,rgba(15,41,66,0) 55%),linear-gradient(160deg,var(--navy) 0%,var(--navy-2) 60%,#0b2036 100%);}
+  .hero-deco{position:absolute;inset:0;overflow:hidden;pointer-events:none;}
+  .hero-deco svg{position:absolute;opacity:.08;}
+  .hero-inner{padding:84px 0 90px;position:relative;z-index:2;}
+  .kicker{display:inline-block;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--accent);border:1px solid rgba(201,150,44,.5);padding:6px 14px;border-radius:30px;margin-bottom:22px;}
+  .hero h1{font-size:clamp(30px,5.5vw,52px);line-height:1.08;font-weight:800;letter-spacing:-.8px;margin-bottom:20px;max-width:800px;}
+  .hero h1 .hl{color:var(--accent);}
+  .hero p.lead{font-size:clamp(16px,2vw,19px);color:#c7d6e6;max-width:640px;margin-bottom:30px;}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:34px;}
+  .partner-badge{display:inline-flex;align-items:center;gap:12px;background:rgba(201,150,44,.12);border:1px solid rgba(201,150,44,.45);border-radius:12px;padding:12px 18px;cursor:pointer;transition:background .18s,border-color .18s,transform .18s,box-shadow .18s;}
+  a.partner-badge:hover{background:rgba(201,150,44,.2);border-color:rgba(201,150,44,.75);transform:translateY(-2px);box-shadow:0 8px 22px rgba(201,150,44,.22);}
+  a.partner-badge:hover .pb-arr{transform:translate(2px,-2px);}
+  .pb-arr{flex:0 0 auto;margin-left:4px;opacity:.85;transition:transform .18s;}
+  .pb-ic{flex:0 0 32px;width:32px;height:32px;border-radius:8px;background:rgba(201,150,44,.9);display:flex;align-items:center;justify-content:center;}
+  .pb-t{font-size:10.5px;letter-spacing:1.2px;text-transform:uppercase;color:#c7d6e6;}
+  .pb-v{font-size:15px;font-weight:700;color:#fff;}
+  .pb-note{font-size:11.5px;color:#c7d6e6;margin-top:2px;}
+
+  /* trust strip */
+  .strip{background:var(--bg-soft);border-bottom:1px solid var(--line);}
+  .strip-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding:34px 0;}
+  .strip .it{text-align:center;}
+  .strip .big{font-size:26px;font-weight:800;color:var(--blue);}
+  .strip .lbl{font-size:13px;color:var(--muted);margin-top:4px;}
+
+  /* SERVICES */
+  .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+  .svc{border:1px solid var(--line);border-radius:16px;padding:26px 22px;background:var(--white);transition:transform .15s,box-shadow .15s,border-color .15s;}
+  .svc:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(15,41,66,.1);border-color:#cfe0ef;}
+  .svc-ic{width:52px;height:52px;border-radius:13px;background:linear-gradient(135deg,var(--navy),var(--blue));display:flex;align-items:center;justify-content:center;margin-bottom:16px;}
+  .svc h3{font-size:17.5px;color:var(--navy);margin-bottom:8px;}
+  .svc p{font-size:14px;color:var(--muted);}
+
+  /* PROCESS */
+  .proc{background:var(--bg-soft);}
+  .flow{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:20px;}
+  .step{text-align:center;}
+  .step-circ{width:66px;height:66px;border-radius:50%;margin:0 auto 14px;background:var(--white);border:2px solid var(--blue);display:flex;align-items:center;justify-content:center;position:relative;}
+  .step-n{position:absolute;top:-6px;right:-6px;width:26px;height:26px;border-radius:50%;background:var(--accent);color:#3a2b06;font-weight:800;font-size:13px;display:flex;align-items:center;justify-content:center;border:2px solid var(--bg-soft);}
+  .step h4{font-size:15px;color:var(--navy);margin-bottom:4px;}
+  .step p{font-size:12.5px;color:var(--muted);}
+
+  /* VALUES */
+  .values{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;}
+  .val{text-align:center;padding:28px 22px;border:1px solid var(--line);border-radius:16px;}
+  .val-ic{width:56px;height:56px;margin:0 auto 14px;border-radius:15px;background:linear-gradient(135deg,var(--navy),var(--blue));display:flex;align-items:center;justify-content:center;}
+  .val h4{font-size:18px;color:var(--navy);margin-bottom:7px;}
+  .val p{font-size:13.5px;color:var(--muted);}
+
+  /* OFFICES */
+  .off{background:var(--navy);color:#e6eef6;}
+  .off .title{color:#fff;}
+  .off .subtitle{color:#9fb6cd;}
+  .off-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+  .off-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:24px;}
+  .off-top{display:flex;align-items:center;gap:11px;margin-bottom:14px;}
+  .off-pin{width:38px;height:38px;flex:0 0 38px;border-radius:10px;background:rgba(201,150,44,.2);display:flex;align-items:center;justify-content:center;}
+  .off-city{font-size:19px;font-weight:800;color:#fff;}
+  .off-card .addr{font-size:13.5px;color:#c3d3e2;margin-bottom:14px;min-height:20px;}
+  .off-card .zone-l{font-size:10.5px;text-transform:uppercase;letter-spacing:.8px;color:var(--accent);font-weight:700;margin-bottom:5px;}
+  .off-card .zone{font-size:13px;color:#dbe6f1;margin-bottom:16px;}
+  .off-hours{font-size:12.5px;color:#dbe6f1;margin-bottom:16px;}
+  .off-hours .hrow{display:flex;justify-content:space-between;gap:10px;padding:2px 0;}
+  .off-hours .hrow .d{color:#9fb6cd;}
+  .off-hours .hrow .t{color:#eaf1f8;font-weight:600;white-space:nowrap;}
+  .off-hours .hnote{margin-top:6px;font-size:11px;color:#9fb6cd;line-height:1.4;}
+  .off-contacts{border-top:1px solid rgba(255,255,255,.12);padding-top:14px;display:flex;flex-direction:column;gap:8px;}
+  .off-contacts a{display:flex;align-items:center;gap:9px;font-size:13.5px;color:#eaf1f8;font-weight:600;}
+  .off-contacts a:hover{color:var(--accent);}
+  .off-contacts svg{flex:0 0 16px;}
+  .off-route{display:flex;align-items:center;justify-content:center;gap:9px;margin-top:14px;padding:12px 16px;border-radius:11px;background:rgba(201,150,44,.14);border:1px solid rgba(201,150,44,.5);color:#f0e4c6;font-size:13.5px;font-weight:700;transition:background .16s,border-color .16s,transform .14s,box-shadow .16s;}
+  .off-route svg{flex:0 0 17px;}
+  .off-route:hover{background:rgba(201,150,44,.24);border-color:rgba(201,150,44,.85);transform:translateY(-2px);box-shadow:0 8px 20px rgba(201,150,44,.2);color:#fff;}
+
+  /* ANKETA BANNER */
+  .anketa{background:linear-gradient(135deg,var(--accent) 0%,#e6b64c 100%);}
+  .anketa-inner{display:flex;align-items:center;gap:26px;flex-wrap:wrap;justify-content:space-between;}
+  .anketa-ic{flex:0 0 66px;width:66px;height:66px;border-radius:16px;background:rgba(15,41,66,.14);display:flex;align-items:center;justify-content:center;}
+  .anketa-txt{flex:1;min-width:260px;}
+  .anketa-txt h3{font-size:clamp(20px,3vw,26px);color:#3a2b06;font-weight:800;margin-bottom:6px;}
+  .anketa-txt p{font-size:15px;color:#5a4a1e;}
+  .anketa .btn{background:var(--navy);color:#fff;padding:15px 28px;font-size:15.5px;white-space:nowrap;}
+  .anketa .btn:hover{box-shadow:0 8px 20px rgba(15,41,66,.35);}
+
+  /* MODAL (доверенность) */
+  .modal-ov{position:fixed;inset:0;background:rgba(11,32,54,.72);backdrop-filter:blur(3px);z-index:1000;display:none;align-items:center;justify-content:center;padding:20px;}
+  .modal-ov.open{display:flex;}
+  .modal{background:#fff;border-radius:18px;max-width:560px;width:100%;max-height:90vh;overflow-y:auto;box-shadow:0 24px 60px rgba(0,0,0,.4);animation:modalIn .22s ease;}
+  @keyframes modalIn{from{opacity:0;transform:translateY(16px) scale(.98);}to{opacity:1;transform:none;}}
+  .modal-head{background:linear-gradient(135deg,var(--navy),#0b2036);color:#fff;padding:22px 26px;border-radius:18px 18px 0 0;display:flex;gap:14px;align-items:flex-start;position:relative;}
+  .modal-head .m-ic{flex:0 0 40px;width:40px;height:40px;border-radius:11px;background:rgba(201,150,44,.2);display:flex;align-items:center;justify-content:center;}
+  .modal-head h3{font-size:19px;font-weight:800;line-height:1.25;}
+  .modal-x{position:absolute;top:14px;right:16px;background:none;border:none;cursor:pointer;padding:4px;line-height:0;opacity:.75;transition:opacity .15s;}
+  .modal-x:hover{opacity:1;}
+  .modal-body{padding:22px 26px;}
+  .modal-body p{font-size:14.5px;color:var(--ink);margin-bottom:14px;line-height:1.55;}
+  .m-req{list-style:none;margin:0 0 16px;padding:0;}
+  .m-req li{display:flex;gap:11px;align-items:flex-start;font-size:14px;color:var(--ink);padding:9px 0;border-bottom:1px solid var(--line);}
+  .m-req li:last-child{border-bottom:none;}
+  .m-req .mr-ic{flex:0 0 22px;width:22px;height:22px;border-radius:6px;background:var(--accent-soft);display:flex;align-items:center;justify-content:center;margin-top:1px;}
+  .m-warn{background:#fdf3e0;border:1px solid var(--accent);border-left:4px solid var(--accent);border-radius:10px;padding:13px 16px;font-size:13.5px;color:#5a4a1e;margin-bottom:18px;line-height:1.5;}
+  .m-warn b{color:var(--navy);}
+  .m-check{display:flex;gap:11px;align-items:flex-start;cursor:pointer;user-select:none;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;transition:border-color .15s,background .15s;margin-bottom:16px;}
+  .m-check:hover{border-color:var(--accent);background:var(--bg-soft);}
+  .m-check input{flex:0 0 20px;width:20px;height:20px;margin-top:1px;accent-color:var(--accent);cursor:pointer;}
+  .m-check span{font-size:13.5px;color:var(--ink);line-height:1.45;}
+  .modal-foot{display:flex;gap:12px;flex-wrap:wrap;}
+  .modal-foot .btn{flex:1;justify-content:center;min-width:150px;}
+  .btn[disabled]{opacity:.45;cursor:not-allowed;pointer-events:none;}
+  .btn-cancel{background:transparent;border:1.5px solid var(--line);color:var(--muted);}
+  .btn-cancel:hover{border-color:var(--muted);box-shadow:none;}
+
+  /* CONTACT */
+  .contact-grid{display:grid;grid-template-columns:1fr;gap:34px;align-items:start;max-width:640px;margin:0 auto;}
+  .ct-list{display:flex;flex-direction:column;gap:16px;}
+  .ct-group-l{display:flex;align-items:center;gap:9px;font-size:12.5px;font-weight:700;color:var(--blue);text-transform:uppercase;letter-spacing:.8px;margin-bottom:2px;}
+  .ct-group-l svg{flex:0 0 17px;}
+  .ct-hint{font-size:13px;color:var(--muted);margin-top:6px;text-align:center;line-height:1.5;}
+  .ct-hint a{color:var(--blue);font-weight:600;}
+  .ct-item{display:flex;gap:15px;align-items:center;padding:15px 18px;border:1px solid var(--line);border-radius:13px;background:var(--white);transition:border-color .15s,box-shadow .15s,transform .12s;}
+  .ct-item:hover{border-color:#cfe0ef;box-shadow:0 6px 18px rgba(15,41,66,.07);transform:translateY(-1px);}
+  .ct-item .ic{flex:0 0 46px;width:46px;height:46px;border-radius:12px;background:var(--bg-soft);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;transition:background .15s,border-color .15s;}
+  .ct-item:hover .ic{background:#eaf2fa;border-color:#cfe0ef;}
+  .ct-item .tx{display:flex;flex-direction:column;gap:3px;min-width:0;}
+  .ct-item .l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;line-height:1.2;}
+  .ct-item .v{font-size:16.5px;color:var(--ink);font-weight:700;line-height:1.25;}
+  .ct-item .arr{margin-left:auto;flex:0 0 auto;color:var(--line);transition:color .15s,transform .15s;}
+  .ct-item:hover .arr{color:var(--blue);transform:translateX(2px);}
+
+  /* FOOTER */
+  footer{background:#0b2036;color:#9fb6cd;padding:40px 0 30px;}
+  .foot-grid{display:flex;justify-content:space-between;align-items:flex-start;gap:30px;flex-wrap:wrap;}
+  .foot-brand b{color:#fff;font-size:16px;display:block;}
+  .foot-brand span{font-size:13px;}
+  .foot-req{font-size:12.5px;line-height:1.7;max-width:460px;}
+  .foot-req b{color:#c3d3e2;}
+  .foot-bottom{border-top:1px solid rgba(255,255,255,.1);margin-top:26px;padding-top:18px;font-size:12px;text-align:center;color:#6f8399;}
+  .foot-bottom a{color:var(--accent);}
+
+  /* RESPONSIVE */
+  @media(max-width:900px){
+    .svc-grid{grid-template-columns:repeat(2,1fr);}
+    .strip-grid{grid-template-columns:repeat(2,1fr);}
+    .flow{grid-template-columns:repeat(2,1fr);gap:24px;}
+    .values,.off-grid{grid-template-columns:1fr;}
+    .contact-grid{grid-template-columns:1fr;}
+  }
+  @media(max-width:640px){
+    section{padding:52px 0;}
+    .nav-links{display:none;}
+    .nav-links.open{display:flex;position:absolute;top:66px;left:0;right:0;flex-direction:column;background:#fff;border-bottom:1px solid var(--line);padding:18px 22px;gap:16px;}
+    .burger{display:block;}
+    .svc-grid{grid-template-columns:1fr;}
+    .strip-grid{grid-template-columns:1fr 1fr;}
+    .flow{grid-template-columns:1fr;}
+    .hero-cta{flex-direction:column;align-items:stretch;}
+    .hero-cta .btn{justify-content:center;}
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="wrap nav">
+    <a href="#top" class="brand">
+      <span class="logo">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 2 L20 6 V12 C20 17 16.5 20.5 12 22 C7.5 20.5 4 17 4 12 V6 Z" fill="#fff"/><path d="M8.5 12.5 L11 15 L16 9.5" stroke="#0f2942" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+      <span><b>Арт-Лайн Эксперт</b><span>Независимая экспертиза</span></span>
+    </a>
+    <a href="https://anketa.artlinexpt.com/" target="_blank" rel="noopener" class="btn header-anketa">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M7 3h7l4 4v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" stroke="#3a2b06" stroke-width="1.7" stroke-linejoin="round"/><path d="M14 3v4h4M8.5 13l1.7 1.7L15 10" stroke="#3a2b06" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="ha-full">Ускорьте подачу — анкета</span><span class="ha-short">Анкета</span>
+    </a>
+    <nav class="nav-links" id="menu">
+      <a href="#services">Услуги</a>
+      <a href="#process">Как работаем</a>
+      <a href="#offices">Офисы</a>
+      <a href="https://n954481.yclients.com" target="_blank" rel="noopener" class="btn">Запись · Владивосток</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Меню">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h16M4 17h16" stroke="#0f2942" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero-deco">
+    <svg width="420" height="420" viewBox="0 0 100 100" style="top:-80px;right:-80px;"><path fill="#fff" d="M50 2 L92 20 V50 C92 76 74 92 50 98 C26 92 8 76 8 50 V20 Z"/></svg>
+    <svg width="280" height="280" viewBox="0 0 100 100" style="bottom:-40px;left:-90px;"><circle cx="50" cy="50" r="48" fill="none" stroke="#fff" stroke-width="3"/></svg>
+  </div>
+  <div class="wrap hero-inner">
+    <span class="kicker">Приморский край · ОСАГО и КАСКО</span>
+    <h1>Независимая экспертиза и <span class="hl">осмотр ТС и имущества</span></h1>
+    <p class="lead">Осматриваем транспортные средства и имущество, принимаем документы после ДТП и рассчитываем стоимость восстановительного ремонта по Единой методике. Работаем со страховыми компаниями и напрямую с клиентами.</p>
+    <div class="hero-cta">
+      <a href="https://n954481.yclients.com" target="_blank" rel="noopener" class="btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M8 3v3M16 3v3M4 8h16M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z" stroke="#3a2b06" stroke-width="1.7" stroke-linejoin="round"/><path d="M8.5 13l2 2 4-4.5" stroke="#3a2b06" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Онлайн-запись · Владивосток
+      </a>
+      <a href="https://anketa.artlinexpt.com/" target="_blank" rel="noopener" class="btn btn-ghost">Заполнить анкету онлайн</a>
+      <button type="button" class="btn btn-ghost" id="dovBtn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 4v11m0 0l-4-4m4 4l4-4M5 19h14" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Шаблон доверенности
+      </button>
+    </div>
+    <a class="partner-badge" href="https://www.ingos.ru/" target="_blank" rel="noopener nofollow" title="Официальный сайт СПАО «Ингосстрах» — откроется в новой вкладке">
+      <span class="pb-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#0f2942" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <div><div class="pb-t">Действующий партнёр</div><div class="pb-v">СПАО «Ингосстрах»</div><div class="pb-note">по направлениям ОСАГО</div></div>
+      <span class="pb-arr"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H9M17 7v8" stroke="#c9962c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    </a>
+  </div>
+</section>
+
+<!-- STRIP -->
+<div class="strip">
+  <div class="wrap strip-grid">
+    <div class="it"><div class="big">3 офиса</div><div class="lbl">Владивосток, Артём, Уссурийск</div></div>
+    <div class="it"><div class="big">5 дн.</div><div class="lbl">Осмотр по направлению или в 5 рабочих дней</div></div>
+    <div class="it"><div class="big">100%</div><div class="lbl">Расчёт ТС по Единой методике ЦБ РФ</div></div>
+    <div class="it"><div class="big">ОСАГО · КАСКО</div><div class="lbl">Работаем по обоим видам</div></div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="wrap">
+    <h2 class="title">Услуги</h2>
+    <p class="subtitle">Полный цикл полевой и документальной работы по урегулированию — от осмотра до готового расчёта.</p>
+    <div class="svc-grid">
+
+      <div class="svc">
+        <div class="svc-ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M3 13l2-5a2 2 0 0 1 1.9-1.3h10.2A2 2 0 0 1 19 8l2 5v5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1H6v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/><circle cx="7" cy="15" r="1.2" fill="#c9962c"/><circle cx="17" cy="15" r="1.2" fill="#c9962c"/></svg></div>
+        <h3>Осмотр транспортных средств</h3>
+        <p>Осмотр повреждённых ТС по ОСАГО и КАСКО в офисе или с выездом на место — с детальной фотофиксацией, описанием повреждений и составлением акта осмотра.</p>
+      </div>
+
+      <div class="svc">
+        <div class="svc-ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/><path d="M9.5 21v-6h5v6" stroke="#c9962c" stroke-width="1.6"/></svg></div>
+        <h3>Осмотр имущества</h3>
+        <p>Осмотр повреждённой недвижимости и иного застрахованного имущества: фиксация состояния, объёма повреждений и обстоятельств события с составлением акта.</p>
+      </div>
+
+      <div class="svc">
+        <div class="svc-ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M7 3h7l4 4v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/><path d="M14 3v4h4M9 12h6M9 15.5h6" stroke="#c9962c" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+        <h3>Приём документов после ДТП</h3>
+        <p>Комплектация и проверка пакета документов от потерпевших: сверка, оцифровка и передача в страховую компанию без ошибок и потерь.</p>
+      </div>
+
+      <div class="svc">
+        <div class="svc-ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><rect x="4" y="3" width="16" height="18" rx="2" stroke="#fff" stroke-width="1.6"/><path d="M8 7h8M8 11h2M12 11h4M8 15h2M12 15h4" stroke="#c9962c" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+        <h3>Расчёт по Единой методике</h3>
+        <p>Определение стоимости восстановительного ремонта ТС строго по Положению Банка России, с учётом износа и справочников РСА.</p>
+      </div>
+
+      <div class="svc">
+        <div class="svc-ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v5c0 4.4-3 8-7 9-4-1-7-4.6-7-9V6z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke="#c9962c" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3>Сопровождение до соглашения</h3>
+        <p>Ведём клиента на всех этапах урегулирования вплоть до заключения соглашения о выплате — с корректным оформлением документов.</p>
+      </div>
+
+      <div class="svc">
+        <div class="svc-ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="#fff" stroke-width="1.6"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1" stroke="#c9962c" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+        <h3>Дополнительные услуги</h3>
+        <p>Дефектовка на СТОА, независимая экспертиза, консультации по урегулированию и сопровождение дел на всех этапах.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="proc" id="process">
+  <div class="wrap">
+    <h2 class="title">Как мы работаем</h2>
+    <p class="subtitle">Прозрачный процесс от заявки до готового пакета документов.</p>
+    <div class="flow">
+      <div class="step"><div class="step-circ"><span class="step-n">1</span><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h10" stroke="#1e5a8a" stroke-width="1.8" stroke-linecap="round"/></svg></div><h4>Заявка</h4><p>Обращение клиента или направление страховой</p></div>
+      <div class="step"><div class="step-circ"><span class="step-n">2</span><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11z" stroke="#1e5a8a" stroke-width="1.8"/><circle cx="12" cy="10" r="2.3" stroke="#1e5a8a" stroke-width="1.8"/></svg></div><h4>Осмотр</h4><p>В офисе по записи или выезд на место — в течение 5 рабочих дней</p></div>
+      <div class="step"><div class="step-circ"><span class="step-n">3</span><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><rect x="4" y="6" width="16" height="12" rx="2" stroke="#1e5a8a" stroke-width="1.8"/><circle cx="12" cy="12" r="2.6" stroke="#1e5a8a" stroke-width="1.8"/><path d="M9 6l1.2-2h3.6L15 6" stroke="#1e5a8a" stroke-width="1.8"/></svg></div><h4>Фиксация</h4><p>Фото и акт повреждений</p></div>
+      <div class="step"><div class="step-circ"><span class="step-n">4</span><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M7 3h10a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" stroke="#1e5a8a" stroke-width="1.8"/><path d="M9 9h6M9 13h6M9 17h4" stroke="#1e5a8a" stroke-width="1.8" stroke-linecap="round"/></svg></div><h4>Расчёт</h4><p>По Единой методике ЦБ РФ</p></div>
+      <div class="step"><div class="step-circ"><span class="step-n">5</span><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#1e5a8a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h4>Результат</h4><p>Готовый пакет и сопровождение до соглашения</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section id="values">
+  <div class="wrap">
+    <h2 class="title">Почему выбирают нас</h2>
+    <p class="subtitle">Работаем так, чтобы к нам возвращались — и клиенты, и страховые компании.</p>
+    <div class="values">
+      <div class="val"><div class="val-ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v5c0 4.4-3 8-7 9-4-1-7-4.6-7-9V6z" stroke="#fff" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke="#c9962c" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h4>Честность</h4><p>Объективная фиксация фактов без искажений. Прозрачность на каждом этапе — репутация для нас важнее одного дела.</p></div>
+      <div class="val"><div class="val-ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="#fff" stroke-width="1.7"/><path d="M12 7v5l3 2" stroke="#c9962c" stroke-width="1.9" stroke-linecap="round"/></svg></div><h4>Оперативность</h4><p>Соблюдаем сроки осмотра и обработки: приём по направлению или в течение 5 рабочих дней, быстрая передача материалов.</p></div>
+      <div class="val"><div class="val-ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 2l2.6 6.3 6.8.5-5.2 4.4 1.7 6.6L12 16.8 6.1 20.3l1.7-6.6L2.6 9.3l6.8-.5z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/></svg></div><h4>Качество</h4><p>Полные акты, детальная фотофиксация и расчёты по Единой методике — материал, готовый к принятию решения без доработок.</p></div>
+      <div class="val"><div class="val-ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><rect x="4" y="5" width="16" height="16" rx="2" stroke="#fff" stroke-width="1.7"/><path d="M8 3v4M16 3v4M4 10h16" stroke="#fff" stroke-width="1.7" stroke-linecap="round"/><path d="M9 15l2 2 4-4" stroke="#c9962c" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h4>Без очередей</h4><p>Работаем только по предварительной записи, поэтому очередей нет. Приём в назначенное время, в спокойной и светлой обстановке офиса — всё организованно и без суеты.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- OFFICES -->
+<section class="off" id="offices">
+  <div class="wrap">
+    <h2 class="title">Офисы и география выездов</h2>
+    <p class="subtitle">Три офиса покрывают юг Приморского края.</p>
+    <div class="off-grid">
+      <div class="off-card">
+        <div class="off-top"><span class="off-pin"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11z" stroke="#c9962c" stroke-width="1.8"/><circle cx="12" cy="10" r="2.3" stroke="#c9962c" stroke-width="1.8"/></svg></span><span class="off-city">Владивосток</span></div>
+        <div class="addr">ул. Дальняя, 7, стр. 2</div>
+        <div class="zone-l">Зона выездов</div>
+        <div class="zone">В пределах города Владивостока</div>
+        <div class="zone-l">Часы работы</div>
+        <div class="off-hours">
+          <div class="hrow"><span class="d">Пн–Чт</span><span class="t">10:00–17:15</span></div>
+          <div class="hrow"><span class="d">Пятница</span><span class="t">10:00–16:30</span></div>
+          <div class="hrow"><span class="d">Обед</span><span class="t">13:00–13:30</span></div>
+          <div class="hnote">Сб, Вс и праздничные дни — выходные по производственному календарю РФ</div>
+        </div>
+        <div class="off-contacts">
+          <a href="tel:+74232029098"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v3a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2z" stroke="#c9962c" stroke-width="1.7" stroke-linejoin="round"/></svg>+7 (423) 202-90-98</a>
+          <a href="mailto:vdkavto@yandex.ru"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#c9962c" stroke-width="1.7"/><path d="M4 7l8 6 8-6" stroke="#c9962c" stroke-width="1.7"/></svg>vdkavto@yandex.ru</a>
+        </div>
+        <a class="off-route" href="https://2gis.ru/vladivostok/firm/70000001069109685" target="_blank" rel="noopener" title="Открыть офис во Владивостоке в 2ГИС — карта, адрес и построение маршрута">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11z" stroke="#c9962c" stroke-width="1.9"/><circle cx="12" cy="10" r="2.4" stroke="#c9962c" stroke-width="1.9"/></svg>
+          Открыть в 2ГИС
+        </a>
+      </div>
+      <div class="off-card">
+        <div class="off-top"><span class="off-pin"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11z" stroke="#c9962c" stroke-width="1.8"/><circle cx="12" cy="10" r="2.3" stroke="#c9962c" stroke-width="1.8"/></svg></span><span class="off-city">Артём</span></div>
+        <div class="addr">ул. Дежнёва, 60а, стр. 8</div>
+        <div class="zone-l">Зона выездов</div>
+        <div class="zone">Артём, Владивосток и близлежащие посёлки до Большого Камня</div>
+        <div class="zone-l">Часы работы</div>
+        <div class="off-hours">
+          <div class="hrow"><span class="d">Пн–Пт</span><span class="t">10:00–18:00</span></div>
+          <div class="hrow"><span class="d">Обед</span><span class="t">13:00–14:00</span></div>
+          <div class="hnote">Сб, Вс и праздничные дни — выходные по производственному календарю РФ</div>
+        </div>
+        <div class="off-contacts">
+          <a href="tel:+79510067359"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v3a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2z" stroke="#c9962c" stroke-width="1.7" stroke-linejoin="round"/></svg>+7 (951) 006-73-59</a>
+          <a href="mailto:osmotr-prim@mail.ru"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#c9962c" stroke-width="1.7"/><path d="M4 7l8 6 8-6" stroke="#c9962c" stroke-width="1.7"/></svg>osmotr-prim@mail.ru</a>
+        </div>
+        <a class="off-route" href="https://2gis.ru/artem/firm/70000001021719736" target="_blank" rel="noopener" title="Открыть офис в Артёме в 2ГИС — карта, адрес и построение маршрута">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11z" stroke="#c9962c" stroke-width="1.9"/><circle cx="12" cy="10" r="2.4" stroke="#c9962c" stroke-width="1.9"/></svg>
+          Открыть в 2ГИС
+        </a>
+      </div>
+      <div class="off-card">
+        <div class="off-top"><span class="off-pin"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11z" stroke="#c9962c" stroke-width="1.8"/><circle cx="12" cy="10" r="2.3" stroke="#c9962c" stroke-width="1.8"/></svg></span><span class="off-city">Уссурийск</span></div>
+        <div class="addr">ул. Беляева, 30а</div>
+        <div class="zone-l">Зона выездов</div>
+        <div class="zone">Уссурийск и территория до Спасска-Дальнего. Кавалеровский и Дальнегорский районы — не обслуживаются.</div>
+        <div class="zone-l">Часы работы</div>
+        <div class="off-hours">
+          <div class="hrow"><span class="d">Пн–Пт</span><span class="t">10:00–18:00</span></div>
+          <div class="hrow"><span class="d">Обед</span><span class="t">13:00–14:00</span></div>
+          <div class="hnote">Сб, Вс и праздничные дни — выходные по производственному календарю РФ</div>
+        </div>
+        <div class="off-contacts">
+          <a href="tel:+79046207012"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v3a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2z" stroke="#c9962c" stroke-width="1.7" stroke-linejoin="round"/></svg>+7 (904) 620-70-12</a>
+          <a href="tel:+79664140994"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v3a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2z" stroke="#c9962c" stroke-width="1.7" stroke-linejoin="round"/></svg>+7 (966) 414-09-94</a>
+          <a href="mailto:ussavto125@yandex.ru"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#c9962c" stroke-width="1.7"/><path d="M4 7l8 6 8-6" stroke="#c9962c" stroke-width="1.7"/></svg>ussavto125@yandex.ru</a>
+        </div>
+        <a class="off-route" href="https://2gis.ru/ussuriysk/geo/11681847188659284" target="_blank" rel="noopener" title="Открыть офис в Уссурийске в 2ГИС — карта, адрес и построение маршрута">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11z" stroke="#c9962c" stroke-width="1.9"/><circle cx="12" cy="10" r="2.4" stroke="#c9962c" stroke-width="1.9"/></svg>
+          Открыть в 2ГИС
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ANKETA -->
+<section class="anketa">
+  <div class="wrap anketa-inner">
+    <div class="anketa-ic">
+      <svg width="34" height="34" viewBox="0 0 24 24" fill="none"><path d="M7 3h7l4 4v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" stroke="#3a2b06" stroke-width="1.6" stroke-linejoin="round"/><path d="M14 3v4h4M8.5 13l1.7 1.7L15 10" stroke="#3a2b06" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div class="anketa-txt">
+      <h3>Ускорьте подачу заявления о возмещении</h3>
+      <p>Заполните онлайн-анкету заранее — это сократит время оформления и подачи заявления о страховом возмещении.</p>
+    </div>
+    <a href="https://anketa.artlinexpt.com/" target="_blank" rel="noopener" class="btn">Заполнить анкету</a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap">
+    <h2 class="title">Связаться с нами</h2>
+    <p class="subtitle">Онлайн-запись — для офиса во Владивостоке. В Артём и Уссурийск запишем по телефону офиса (см. раздел «Офисы»).</p>
+    <div class="contact-grid">
+      <div class="ct-list">
+        <div class="ct-group-l">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11z" stroke="#1e5a8a" stroke-width="1.9"/><circle cx="12" cy="10" r="2.3" stroke="#1e5a8a" stroke-width="1.9"/></svg>
+          Головной офис — Владивосток
+        </div>
+        <a class="ct-item" href="https://n954481.yclients.com" target="_blank" rel="noopener">
+          <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M8 3v3M16 3v3M4 8h16M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z" stroke="#1e5a8a" stroke-width="1.7" stroke-linejoin="round"/><path d="M8.5 13l2 2 4-4.5" stroke="#1e5a8a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span class="tx"><span class="l">Онлайн-запись</span><span class="v">Записаться через YCLIENTS</span></span>
+          <svg class="arr" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="ct-item" href="tel:+74232029098">
+          <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v3a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2z" stroke="#1e5a8a" stroke-width="1.7" stroke-linejoin="round"/></svg></span>
+          <span class="tx"><span class="l">Телефон</span><span class="v">+7 (423) 202-90-98</span></span>
+          <svg class="arr" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="ct-item" href="https://wa.me/79662804220" target="_blank" rel="noopener">
+          <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 20l1.4-4A8 8 0 1 1 9 18.6z" stroke="#1e5a8a" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5.6 0 1-.5 1-1s-.2-.9-.7-1.1l-1.3-.5-.9 1a4 4 0 0 1-2-2l1-.9-.5-1.3c-.2-.5-.6-.7-1.1-.7s-1 .4-1 1z" fill="#1e5a8a"/></svg></span>
+          <span class="tx"><span class="l">WhatsApp · бот · круглосуточно</span><span class="v">+7 966 280-42-20</span></span>
+          <svg class="arr" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="ct-item" href="https://t.me/Artlinexpt" target="_blank" rel="noopener">
+          <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M21 4L3 11l5 2 2 6 3-4 5 3z" stroke="#1e5a8a" stroke-width="1.7" stroke-linejoin="round"/><path d="M8 13l9-6" stroke="#1e5a8a" stroke-width="1.7" stroke-linecap="round"/></svg></span>
+          <span class="tx"><span class="l">Telegram · бот · круглосуточно</span><span class="v">@Artlinexpt</span></span>
+          <svg class="arr" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="ct-item" href="mailto:vdkavto@yandex.ru">
+          <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#1e5a8a" stroke-width="1.7"/><path d="M4 7l8 6 8-6" stroke="#1e5a8a" stroke-width="1.7"/></svg></span>
+          <span class="tx"><span class="l">E-mail</span><span class="v">vdkavto@yandex.ru</span></span>
+          <svg class="arr" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <p class="ct-hint">Эти контакты — для офиса во Владивостоке. У офисов в <a href="#offices">Артёме и Уссурийске</a> свои телефоны и e-mail.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <b>Арт-Лайн Эксперт</b>
+        <span>ИП Марков Артём Анатольевич</span>
+      </div>
+      <div class="foot-req">
+        <b>Реквизиты:</b> ИП Марков Артём Анатольевич · ИНН 650302825687 · ОГРНИП 315650400000902<br>
+        Офисы: Владивосток · Артём · Уссурийск · Приморский край · artlinexpt.com
+      </div>
+    </div>
+    <div class="foot-bottom">
+      © 2026 Арт-Лайн Эксперт · <a href="https://artlinexpt.com">artlinexpt.com</a> · Информация на сайте не является публичной офертой.
+    </div>
+  </div>
+</footer>
+
+<!-- MODAL: доверенность -->
+<div class="modal-ov" id="dovOverlay" role="dialog" aria-modal="true" aria-labelledby="dovTitle">
+  <div class="modal">
+    <div class="modal-head">
+      <span class="m-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v5c0 4.4-3 8-7 9-4-1-7-4.6-7-9V6z" stroke="#e6b64c" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke="#e6b64c" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <h3 id="dovTitle">Прежде чем скачать — важная информация</h3>
+      <button class="modal-x" id="dovClose" aria-label="Закрыть"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg></button>
+    </div>
+    <div class="modal-body">
+      <p>Данный документ — <b>рукописная доверенность</b> на представление интересов при урегулировании страхового случая. Выгодоприобретателем (получателем выплаты) является <b>собственник повреждённого имущества</b>.</p>
+      <p style="font-weight:700;color:var(--navy);margin-bottom:10px;">К заполненной доверенности необходимо приложить:</p>
+      <ul class="m-req">
+        <li><span class="mr-ic"><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L19 7" stroke="#c9962c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Копию <b>паспорта собственника</b> имущества (страницы с фото и регистрацией).</span></li>
+        <li><span class="mr-ic"><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L19 7" stroke="#c9962c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><b>Банковские реквизиты собственника</b> для перечисления страхового возмещения.</span></li>
+        <li><span class="mr-ic"><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L19 7" stroke="#c9962c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Документ, подтверждающий <b>право собственности</b> на имущество.</span></li>
+      </ul>
+      <div class="m-warn">
+        <b>Обратите внимание.</b> Страховое возмещение перечисляется <b>исключительно на реквизиты собственника</b> повреждённого имущества. Если заявитель не является собственником, самостоятельно получить выплату он не сможет — деньги в любом случае поступят собственнику.
+      </div>
+      <label class="m-check" for="dovAgree">
+        <input type="checkbox" id="dovAgree">
+        <span>Я ознакомлен(а) с условиями и понимаю, что выплата производится собственнику имущества, а к доверенности необходимо приложить копию паспорта и банковские реквизиты собственника.</span>
+      </label>
+      <div class="modal-foot">
+        <button type="button" class="btn btn-cancel" id="dovCancel">Отмена</button>
+        <button type="button" class="btn" id="dovDownload" disabled>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 4v11m0 0l-4-4m4 4l4-4M5 19h14" stroke="#3a2b06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Скачать шаблон (PDF)
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var burger=document.getElementById('burger'),menu=document.getElementById('menu');
+  burger.addEventListener('click',function(){menu.classList.toggle('open');});
+  menu.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){menu.classList.remove('open');});});
+
+  // --- Модалка доверенности ---
+  var dovOv=document.getElementById('dovOverlay'),
+      dovOpen=document.getElementById('dovBtn'),
+      dovCheck=document.getElementById('dovAgree'),
+      dovDownload=document.getElementById('dovDownload'),
+      dovCancel=document.getElementById('dovCancel'),
+      dovClose=document.getElementById('dovClose');
+  function openDov(){dovCheck.checked=false;dovDownload.disabled=true;dovOv.classList.add('open');document.body.style.overflow='hidden';}
+  function closeDov(){dovOv.classList.remove('open');document.body.style.overflow='';}
+  dovOpen.addEventListener('click',openDov);
+  dovCancel.addEventListener('click',closeDov);
+  dovClose.addEventListener('click',closeDov);
+  dovOv.addEventListener('click',function(e){if(e.target===dovOv)closeDov();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&dovOv.classList.contains('open'))closeDov();});
+  dovCheck.addEventListener('change',function(){dovDownload.disabled=!dovCheck.checked;});
+  dovDownload.addEventListener('click',function(){
+    if(!dovCheck.checked)return;
+    var a=document.createElement('a');a.href='/docs/doverennost.pdf';a.download='doverennost.pdf';
+    document.body.appendChild(a);a.click();document.body.removeChild(a);
+    closeDov();
+  });
+</script>
+
+</body>
+</html>
