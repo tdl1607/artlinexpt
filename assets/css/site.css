@@ -83,7 +83,8 @@ header{position:sticky;top:0;z-index:60;padding:12px var(--gutter) 0;height:0;}
 .w>i{display:inline-block;font-style:normal;will-change:transform;}
 .lead{font-size:clamp(16px,1.6vw,19.5px);color:#c6d4e2;max-width:620px;margin-bottom:34px;text-wrap:pretty;}
 .hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:30px;}
-.partner-badge{display:inline-flex;align-items:center;gap:13px;padding:12px 16px 12px 12px;border-radius:14px;background:rgba(7,19,31,.5);border:1px solid var(--line-2);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);transition:border-color .25s,background .25s;}
+.hero-badges{display:flex;flex-wrap:wrap;gap:12px;align-items:stretch;}
+.partner-badge{display:inline-flex;min-width:0;align-items:center;gap:13px;padding:12px 16px 12px 12px;border-radius:14px;background:rgba(7,19,31,.5);border:1px solid var(--line-2);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);transition:border-color .25s,background .25s;}
 .partner-badge:hover{border-color:var(--amber);background:rgba(245,166,65,.09);}
 .pb-ic{flex:0 0 34px;width:34px;height:34px;border-radius:10px;background:var(--amber);display:flex;align-items:center;justify-content:center;}
 .pb-t{font-size:11.5px;color:var(--mut);}
@@ -277,8 +278,9 @@ footer{background:#050e18;color:var(--mut);padding-block:48px 28px;}
   /* Схема прилипает сверху, шаги прокручиваются под ней */
   .proc-pin{display:flex;flex-direction:column;align-items:stretch;gap:0;min-height:0;padding-block:64px 40px;}
   .proc-text{display:contents;}
-  .proc .title{order:1;}
-  .proc .subtitle{order:2;margin-bottom:22px;}
+  /* Выше тени схемы: она маскирует шаги над прилипшей схемой и не должна закрывать заголовок */
+  .proc .title{order:1;position:relative;z-index:6;}
+  .proc .subtitle{order:2;margin-bottom:22px;position:relative;z-index:6;}
   .stage{order:3;position:sticky;top:84px;z-index:5;margin-bottom:18px;box-shadow:0 -96px 0 var(--ink),0 16px 26px 6px var(--ink);}
   .flow{order:4;}
   .stage-note{padding:0 12px 8px;font-size:11px;}
@@ -296,11 +298,11 @@ footer{background:#050e18;color:var(--mut);padding-block:48px 28px;}
   .hero::before{background:none;}
   .hero-fallback{right:-22%;top:30px;width:92vw;transform:none;}
   .hero-cta{flex-direction:column;align-items:stretch;}
-  .partner-badge{display:flex;}
+  .partner-badge{display:flex;flex:1 1 100%;}
   .pb-arr{margin-left:auto;}
   .svc,.svc.big,.svc.wide{grid-column:span 6;flex-direction:column;align-items:flex-start;gap:0;}
   .svc.wide h3{margin:24px 0 10px;}
-  .anketa-bars{opacity:.32;width:90vw;right:-30%;}
+  .anketa-bars{opacity:.16;width:90vw;right:-30%;}
   .anketa .btn{width:100%;}
   .header-anketa{min-height:42px;padding:8px 13px;}
   .header-anketa .ha-full{display:none;}

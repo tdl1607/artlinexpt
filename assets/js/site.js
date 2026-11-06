@@ -272,7 +272,7 @@
       buildStage({trigger:'.proc-pin',start:'top top',end:'+=260%',pin:true,anticipatePin:1});
     },
     '(max-width: 900px)':function(){
-      buildStage({trigger:'.flow',start:'top 46%',end:'bottom 62%'});
+      buildStage({trigger:'.flow',start:'top 88%',end:'bottom 62%'});
     }
   });
 
