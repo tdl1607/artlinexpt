@@ -77,8 +77,8 @@ header{position:sticky;top:0;z-index:60;padding:12px var(--gutter) 0;height:0;}
 .hero::after{content:"";position:absolute;inset:auto 0 0;height:30%;z-index:1;background:linear-gradient(transparent,var(--ink));pointer-events:none;}
 .hero-inner{position:relative;z-index:2;width:100%;}
 .kicker{display:inline-block;font-family:var(--mono);font-size:12.5px;letter-spacing:.04em;color:var(--amber-2);margin-bottom:24px;}
-.hero h1{font-family:var(--display);font-weight:500;font-size:clamp(31px,5.1vw,70px);line-height:1.05;letter-spacing:-.04em;max-width:11.6em;margin-bottom:26px;}
-.hero h1 .hl{color:var(--amber);}
+.hero h1{font-family:var(--display);font-weight:500;font-size:clamp(31px,4.3vw,60px);line-height:1.05;letter-spacing:-.04em;max-width:11.6em;margin-bottom:26px;}
+.hero h1 .hl{display:block;color:var(--amber);}
 .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.14em;margin-bottom:-.14em;}
 .w>i{display:inline-block;font-style:normal;will-change:transform;}
 .lead{font-size:clamp(16px,1.6vw,19.5px);color:#c6d4e2;max-width:620px;margin-bottom:34px;text-wrap:pretty;}
